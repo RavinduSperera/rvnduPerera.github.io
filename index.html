@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>rvndu.online</title>
+        <link rel="stylesheet" href="styles/ravi.me.styles.css"> <!--style sheet link-->
+        <script src="https://kit.fontawesome.com/f7afb1ff73.js" crossorigin="anonymous"></script> <!--icon_tags-->
+        <script src="script/ravi.me_script.js"></script>
+    </head>
+    
+    <body>
+        <!----------------header--------------->
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images/logoPic.png" class="logo">        
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Connect me</a></li>
+                        <i class="fas fa-xmark" onclick="closeMenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openMenu()"></i>
+                </nav>
+
+                <div class="header-text">
+                    <center><p>sathsara360@gmail.com</p></center>
+                    <center><h1>Hello World :)<br>I'm <span>Ravindu</span>Perera</h1></center>
+                    <!--<center><i class="fa-solid fa-robot fa-fade" style="color: #ffffff; padding-top: 10px;"></i></center>-->
+                </div>
+            </div>
+        </div>
+        
+        <!----------------about--------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="images/pic.jpg" >
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1><br>
+                        
+                        <div class="about_para">
+                            <p class="spaced-paragraph">
+                                I'm an undergraduate at SLIIT, and I'm currently in my year 3 semester 1 period. I have gained good experience 
+                                with web development and full-stack development technologies (HTML, JS, CSS, SQL, and MERN stack) by working 
+                                on my group projects and also in UI design. I'm good at writing clean and scalable code, a quick learner, and a 
+                                good team player. I'm excited to continue growing my skills further and making an impact in the field.
+                                If you are interested in connecting with me, drop me an e-mail at the above address.<br><br>
+                            </p>
+                        </div><br>
+                        
+                                <!--these are the tools that i used in my creations-->
+                                <div class="scrollmenu">
+                                    <a><i class="fa-brands fa-java"></i></a>
+                                    <a><i class="fa-brands fa-html5"></i></a>
+                                    <a><i class="fa-brands fa-css3-alt"></i></a>
+                                    <a><i class="fa-brands fa-js"></i></a>
+                                    <a><i class="fa-brands fa-react"></i></a>
+                                    <!--<a><i class="fa-solid fa-database"></i></a>-->
+                                    <a><i class="fa-brands fa-figma"></i></a>
+                                    <!--<a><i class="fa-brands fa-node"></i></a>-->
+                                    <!--<a><i class="fa-brands fa-stack-overflow"></i></a>-->
+                                    <a><i class="fa-solid fa-database"></i></a>
+                                </div><br>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experiences')">Experiences</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+
+                        <div class="tab-contents active-tab" id="Skills"> <!--skills-->
+                            <ul>
+                                <li><span><b>Technologies</b></span><br>Java | Kotlin | HTML | CSS | Tailwind | Js | React</li>
+                                <li><span><b>Databases</b></span><br>MySQL | Ms SQL | MongoDB</li>
+                                <li><span><b>Design</b></span><br>Figma</li>
+                                <li><span><b>Version controling and Testing</b></span><br>GitHub & Postman</li>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="Experiences"><!--experience-->
+                            <ul>
+                                <li><span><b>2024</b></span><br><span style="color: rgb(3, 167, 3);">Open to Work</span></li>
+                                <a href="images/ravindu_perera_cv.pdf" download class="btn btn2">My CV
+                                    <i class="fa-solid fa-download" style="color: whitesmoke; margin-left: 8px;"></i></a>
+                            </ul>
+                        </div>
+
+                        <div class="tab-contents" id="Education"><!--education-->
+                            <ul>
+                                <li><span><b>Ordinary Level Exhamination (local)</b></span><br>Completed in 2018 - Isipathana College</li>
+                                <a href="images/a.l certi.pdf" class="btn btn2">O/L Certificate
+                                    <i class="fa-solid fa-download" style="color: whitesmoke; margin-left: 8px;"></i></a>
+                                <li><span><b>Advanced Level Exhamination (local)</b></span><br>Completd in 2022 - Isipathana College</li>
+                                <a href="images/my-cv.pdf" class="btn btn2">A/L Certificate
+                                    <i class="fa-solid fa-download" style="color: whitesmoke; margin-left: 8px;"></i></a>
+                                <li><span><b>Degree program</b></span><br>BSc.Hons in IT (UG) - SLIIT</li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!----------------services--------------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list" style="font-family: sans-serif;">
+
+                    <div style="line-height: 1.6">
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Sites</h2>
+                        <!--<p>Personal | Portfolio | Business</p><br><br><hr style="opacity: 0.1;">-->
+                        <a class="navi_port" href="#portfolio">View Work</a>
+                    </div>
+
+                    <div style="line-height: 1.6">
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>UI/UX Design</h2>
+                        <!--<p>Mobile Apps | Sites | Applications</p><br><br><hr style="opacity: 0.1;">-->
+                        <a class="navi_port" href="#portfolio">View Work</a>
+                    </div>
+
+                    <div style="line-height: 1.6">
+                        <i class="fa-solid fa-layer-group"></i>
+                        <h2>Web applications</h2>
+                        <!--<p>E-Commerce | Management Systems | Single Page Applications</p><br><br><hr style="opacity: 0.1;">-->
+                        <a class="navi_port" href="#portfolio">View Work</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+         <!----------------portfolio--------------->
+         <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">Portfolio</h1>
+                <div class="work-list">
+
+                    <div class="work">
+                        <img src="images/port-1.jpg" >
+                        <div class="layer">
+                            <h3>Uber Shopping System</h3>
+                            <p>Year 2 Semester 2 IT Project</p>
+                            <a href="https://github.com/RavinduSperera/Uber-Shopping-System"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="images/port-2.jpg" >
+                        <div class="layer">
+                            <h3>Onlie Bus Reservation System</h3>
+                            <p>Year 2 Semester 1 OOP Project</p>
+                            <a href="https://github.com/RavinduSperera/Onlien-Bus-Reservation-System?tab=readme-ov-file#this-is-an-online-bus-ticket-reservation-system-">
+                                <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="images/port-3.jpg" >
+                        <div class="layer">
+                            <h3>TO-DO App</h3>
+                            <p>Year 2 Semester 2 MAD Project</p>
+                            <a href="https://github.com/RavinduSperera/TO-DO-mobile-app-MAD_LAB_EXAM_04-"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+                <a class="btn" href="EmptyError.html">See more</a>
+                <center><a href="#"><i class="fa-sharp fa-solid fa-angles-up fa-beat-fade" style="color: #ffffff; margin-top: 8px;"></i></a></center>
+            </div>
+         </div>
+
+          <!----------------footer--------------->
+          <center><div id="contact">
+            <div class="container">
+                <div class="row">
+                </div>
+                <center><hr class="line" style="opacity: 0.1;" width="800"></center>
+                <div class="copyright" style="opacity: 0.3;">
+                    <p>developed by RavinduPerera | rvndu.me | 2023 - 2024</p>
+
+                    <div class="social-icons">
+                        <a href="https://www.instagram.com/rvndu.perera/?next=%2F"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://x.com/rvndu_"><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://github.com/RavinduSperera"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/ravindu-perera-b9a23829a/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+            </div>
+          </div></center>
+          <!--footer ends-->
+
+        <!--java_Script_01-->
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabName){
+                for(tabLink of tablinks){
+                    tabLink.classList.remove("active-link");
+                }
+
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabName).classList.add("active-tab");
+
+            }
+        </script>
+
+        <!--java_Script_02-->
+        <!--open/close menu functions-->
+        <script>
+            var sidemnu = document.getElementById("sidemenu");
+
+            // calling functions
+            function openMenu() {
+                sidemnu.style.right = "0";
+            }
+
+            function closeMenu() {
+                sidemnu.style.right = "-200px";
+            }
+
+            // Close the side menu when anywhere else on the screen is touched
+            document.addEventListener('touchstart', function(event) {
+                // Check if the touch is outside the menu
+                if (sidemnu.style.right === "0px") {
+                    if (!sidemnu.contains(event.target) && !event.target.classList.contains('openbtn')) {
+                        closeMenu();
+                    }
+                }
+            });
+        </script>
+
+        <!--java scrip 03-->
+        <!--solution for a scrolling isue-->
+        <script>
+            if ('scrollRestoration' in history) {
+                history.scrollRestoration = 'manual'
+            }
+        </script>
+
+    </body>
+</html>
